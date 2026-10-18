@@ -1,0 +1,5 @@
+bin/
+obj/
+.vs/
+# Character saves are local runtime data and should not be committed by default.
+saves/
