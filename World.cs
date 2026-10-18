@@ -44,7 +44,7 @@ public static class World
         character_class = "European";
         age = 17;
 
-        string save_directory = Path.Combine(AppContext.BaseDirectory, "saves");
+        string save_directory = Path.Combine(Directory.GetCurrentDirectory(), "saves");
         Directory.CreateDirectory(save_directory);
 
         while (character_name.Length == 0)
